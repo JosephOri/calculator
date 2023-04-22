@@ -4,11 +4,13 @@
     display: inline-block;
     margin: 10px;
     border-radius: 15px;
+    padding: 10px ;
 }
 .row{
     padding-bottom: 2px;
 }
 button{
+    padding: 5px;
     border-radius: 10px;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
