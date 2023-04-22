@@ -1,0 +1,10 @@
+button{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+
+}
+.calculator-screen__input{
+    font-size: 40px;
+    width: 200px;
+}
