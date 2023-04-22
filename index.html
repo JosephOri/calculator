@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="calculator-body">
 <div class="calculator-screen">
     <label>
         <input type="text" class="calculator-screen__input" value="0" disabled />
@@ -39,8 +40,12 @@
     <button id="+" value="+" onclick="addOperator(this.value)" > +</button>
     <button id="equal" value="=" onclick="onEqualButtonPress()">=</button>
 </div>
+    <div class="row">
 <button id="c" value="c" onclick="str='';updateDisplay()">c</button>
+  <button id="ans" value="ans" onclick="getAns()">ans</button>
+</div>
 
+</div>
 <script src="script.js"></script>
 </body>
 </html>

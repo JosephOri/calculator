@@ -1,5 +1,5 @@
 var str='';
-
+var ans=''
 
 function updateDisplay() {
     const calculatorScreen = document.querySelector('.calculator-screen__input');
@@ -16,5 +16,9 @@ function clearScreen(){
 function onEqualButtonPress(){
     str=eval(str);
     updateDisplay();
+    ans=str;
     str='';
+}
+function getAns(){
+    addOperator(ans);
 }
