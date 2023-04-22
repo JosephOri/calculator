@@ -1,10 +1,20 @@
-button{
-    height: 50px;
-    width: 50px;
-    font-size: 30px;
 
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    font-family: Calibri, serif;
+    background-color: mediumpurple;
+    color: floralwhite;
 }
 .calculator-screen__input{
-    font-size: 40px;
-    width: 200px;
+    font-size: 70px;
+    height: 100px;
+    width: 404px;
+    border-color: black;
+    background-color: ghostwhite;
+    color: black;
+}
+#equal{
+    background-color: indianred;
 }

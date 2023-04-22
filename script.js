@@ -1,5 +1,6 @@
 var str='';
 
+
 function updateDisplay() {
     const calculatorScreen = document.querySelector('.calculator-screen__input');
     calculatorScreen.value = str;
